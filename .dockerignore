@@ -1,0 +1,24 @@
+# Ignore virtual environment
+venv/
+
+# Ignore git files
+.git/
+.gitignore
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data (optional – remove if needed inside container)
+data/
